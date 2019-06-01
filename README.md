@@ -1,4 +1,4 @@
-﻿## Lanfriend
+## Lanfriend
 
 ### 지금 Telegram에서 @busalarmbot (버스알림봇)을 검색해 보세요.
 
@@ -57,11 +57,12 @@
 ----------------------------------------
 
 
-![시스템 구상도](img/systemDialogflow.png)<br>
+
+<br>![시스템 구상도](img/systemDialogflow.png)<br>
   시스템 구상도
 <br>
 ![시연 이미지](img/example.png)<br>
-  시연 이미지
+  시연 이미지 (Telegram 캡처 화면)
 <br>
 
 시연 동영상 : https://www.youtube.com/watch?v=g4C23xnZVHU&list=PLwRlPsmXEcgLsdvv-YPri6oIYVtOEVDjH&index=2&t=13s 
@@ -69,4 +70,4 @@
 <br>
 개발 기간 : 2019-08-13 ~ 2019-09-18 (1개월 6일)  <br>
 개발 인원 : 3명(개발자 3)  <br>
-사용 도구: Python, Django, Telegram, Dialogflow <br>
+사용 도구: Python, Django, SQLite, Telegram, Dialogflow <br>
