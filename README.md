@@ -1,4 +1,4 @@
-## Lanfriend
+## Lanfriend (랜선친구)
 
 ### 지금 Telegram에서 @busalarmbot (버스알림봇)을 검색해 보세요.
 
@@ -58,16 +58,68 @@
 
 
 
-<br>![시스템 구상도](img/systemDialogflow.png)<br>
-  시스템 구상도
-<br>
-![시연 이미지](img/example.png)<br>
-  시연 이미지 (Telegram 캡처 화면)
+## Bus Get-off Notification ChatBot (버스 하차 알림 챗봇) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2018 창의융합 SW 경진대회 우수상 수상*
+
+**“버스를 이용하는 사용자에게 하차할 정류장이 가까워졌을 때 예약 메시지와 알림으로 하차 정보를 제공해 주는 메신저 기반 인공지능 Chat Bot – 저 이번에 내려요”**
+
+다른 곳에 정신이 팔려 정류장을 지나친 적이 있는 모든 현대인들에게 하차할 정류장을 놓칠 걱정거리를 덜어줄 수 있는 인공지능 Chat Bot 을 개발하였는데, 이를 메신저 플랫폼을 통해 서비스를 제공함으로써 접근성과 효용성을 제고하였다.
+
 <br>
 
-시연 동영상 : https://www.youtube.com/watch?v=g4C23xnZVHU&list=PLwRlPsmXEcgLsdvv-YPri6oIYVtOEVDjH&index=2&t=13s 
+- **구현한 기능 소개**
+  - 사용자의 정보를 저장 및 관리
+  - 탑승지, 버스 번호, 도착지를 입력하면 정류장에 도착 전 알림 메시지 전송
+  - 유효하지 않은 값을 입력하면 다시 입력받도록 함
 
 <br>
-개발 기간 : 2019-08-13 ~ 2019-09-18 (1개월 6일)  <br>
-개발 인원 : 3명(개발자 3)  <br>
-사용 도구: Python, Django, SQLite, Telegram, Dialogflow <br>
+
+- **사용한 언어 및 도구, 라이브러리**
+  + Python3
+  + Django
+  + SQLite
+  + Open API (노선 정보 조회 서비스, 정류소 정보 조회 서비스, 버스 위치 정보 조회 서비스)
+  + Google Dialogflow
+  + Telegram API
+
+<br>
+
++ **개발 환경**
+  + macOS High Sierra / Windows 10
+  + goorm IDE
+
+<br>
+
+- **프로젝트 구성원 및 개발 기간**
+
+  + 광운대학교 소프트웨어학부 윤홍찬, 김광호
+
+  + 광운대학교 컴퓨터소프트웨어학과 강승연
+
+  + 2018.8.13 ~ 9.18
+
+    
+
+- **시연 동영상**
+  + https://www.youtube.com/watch?v=g4C23xnZVHU&list=PLwRlPsmXEcgLsdvv-YPri6oIYVtOEVDjH&index=2&t=13s 
+
+<br>
+
+- **스크린샷**
+
+<br><img width="450" height="600" src="./img/img1.png"></img>
+<br>
+
+ 
+
+시연 이미지 (Telegram 캡처 화면)
+
+![시연 이미지](img/example.png)
+<br>
+
+---
+
+> 2019.11.6 최종 업데이트
+>
+> 광운대학교 소프트웨어학부 윤홍찬
