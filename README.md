@@ -1,5 +1,7 @@
 ## Lanfriend (랜선친구)
 
+[![HitCount](http://hits.dwyl.io/FKgk/The-bus-stop-alert.svg)](http://hits.dwyl.io/FKgk/The-bus-stop-alert)
+
 ### 지금 Telegram에서 @busalarmbot (버스알림봇)을 검색해 보세요.
 
 대중교통(버스)을 이용하는 사용자에게 하차할 정류장이 가까워졌을 때 예약메시지와 알림으로 하차 정보를 제공해주는 **메신저 기반 인공지능 챗봇**
